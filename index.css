@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigator {
+  background-color: black;
+  overflow: hidden;
+}
+
+section {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.navigator {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navigator a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.navigator p {
+  color: white;
+}
+
+.navigator a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.morshu {
+  background-color: white;
+}
+
+.morshupng {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.morshu p {
+  text-align: center;
+}
+
+.romanus {
+  background-color: gainsboro;
+}
+
+.bulgaria_man {
+  background-color: gainsboro;
+  margin-bottom: -1em;
+}
+
+.bosna {
+  margin-top: 1em;
+}
+
+.bosna video {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  width: 300px;
+  height: 225px;
+  object-fit: fill;
+}
+
+.bulgaria_man video {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  width: 300px;
+  height: 225px;
+  object-fit: fill;
+}
+
+.chernobyl_man {
+  background-color: gainsboro;
+  margin-bottom: -1em;
+}
+
+.chernobyl_man video {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  width: 300px;
+  height: 225px;
+  object-fit: fill;
+}
+
+.m_link {
+  text-decoration: none;
+  color: white;
+}
+
+.romanuspng {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.mongopng {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.mongo {
+  padding-top: 49px;
+  background-color: gainsboro;
+  color: black;
+}
+
+.thanospng {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+/*
+.Metehan {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+.mete {
+  padding-top: 49px;
+  background-color: gainsboro;
+  color: black;
+}
+*/
+
+.Metehan img {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+  object-position: 70% 60%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+footer p {
+  color: white;
+  padding-top: 45px;
+}
+
+@media only screen and (max-width: 560px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 507px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 401px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 7px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .navigator a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 6px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}

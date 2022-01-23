@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.metehan1 {
+  background-color: white;
+}
+.metehanpng1 {
+  width: 300px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+}
+.metegan2 {
+  background-color: gainsboro;
+}
+.metehanpng2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  object-fit: fill;
+}

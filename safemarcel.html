@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link rel="stylesheet" href="yugoslav.css" />
+    <title>Code</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <center>
+      <div id="code_div">
+        <input type="text" placeholder="Code" id="input_code" />
+        <button type="button" onclick="code_marcel_Func()">Enter</button>
+      </div>
+    </center>
+    <script>
+      function code_marcel_Func() {
+        var x = document.getElementById("input_code").value;
+
+        if (x === "nikollbibaj") {
+          window.open("marcel.html");
+        } else {
+          alert("wrong code");
+        }
+      }
+    </script>
+  </body>
+</html>
